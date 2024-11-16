@@ -1,4 +1,4 @@
-name: 编译 ksu docker lxc 内核
+name: 编译红米5 Plus ksu docker lxc 内核
 on:
   watch:
     types: [started]
