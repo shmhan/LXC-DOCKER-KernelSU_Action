@@ -1,10 +1,5 @@
 name: build
-on:
-  watch:
-    types: [started]
-
-  workflow_call:
-
+on: [push]
 jobs:
   build:
     name: Build Kernel by ${{ github.actor }}
